@@ -1,0 +1,48 @@
+*{
+    font-family: 'Lexend Deca' 'Big Shoulders Display' sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.container{
+    width: 60vw;
+    height: 70vh;
+    background: hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 5px; */
+}
+.color-1{
+    background: hsl(31, 77%, 52%);
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+.color-2{
+    background: hsl(184, 100%, 22%);
+    text-align: center;
+    /* border-radius: 10px 10px 0 0; */
+}
+.color-3{
+    background: hsl(179, 100%, 13%);
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+h2{
+    
+}
