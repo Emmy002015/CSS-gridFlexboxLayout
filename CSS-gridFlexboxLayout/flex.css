@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    background: greenyellow;
+}
+
+.o{
+    padding: 10px;
+    margin: 10px;
+}
+.o:nth-child(even){
+    background: white;
+}
