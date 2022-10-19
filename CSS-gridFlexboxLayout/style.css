@@ -47,7 +47,9 @@ body {
         width: 30%;
         font-size: small;
     }
-    
+    p{
+        font-size: 13px;
+    }
 }
 
 
@@ -64,6 +66,7 @@ body {
         width: 70%;
         
     }
+    
     
 }
 .card{
